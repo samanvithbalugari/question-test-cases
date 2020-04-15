@@ -2,7 +2,7 @@
     {
         "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}",
         "type": "select",
-        "question": "What is your favourite food?"
+        "question": "What is your favourite food?",
         "options": [
             {"value" : "taco", "label": "Tacoooosss"},
             {"value" : "pizza", "label": "Pizzaaa"}
