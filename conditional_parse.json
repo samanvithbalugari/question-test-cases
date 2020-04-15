@@ -1,0 +1,22 @@
+[
+    {
+        "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}",
+        "type": "text",
+        "metadata": {
+            "DATASOURCE": "EEO"
+        },
+        "question": "What is your favourite food?"
+    },
+    {
+        "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}",
+        "type": "text",
+        "metadata": {
+            "DATASOURCE": "EEO"
+        },
+        "question": "Why do you like tacos?",
+        "condition": {
+            "value": "tacos",
+          "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}"
+        }
+    }
+]
