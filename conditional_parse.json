@@ -3,14 +3,5 @@
         "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}",
         "type": "text",
         "question": "What is your favourite food?"
-    },
-    {
-        "id": "conditional_q",
-        "type": "text",
-        "question": "Why do you like tacos?",
-        "condition": {
-            "value": "tacos",
-            "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}"
-        }
     }
 ]
