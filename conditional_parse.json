@@ -1,6 +1,6 @@
 [
     {
-        "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\", \"abc\": \"SOMETHING|NOTHING\"}",
+        "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}",
         "type": "select",
         "question": "What is your favourite food?",
         "options": [
@@ -14,7 +14,7 @@
         "question": "Why do you like tacos?",
         "condition": {
             "value": "tacos",
-            "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\", \"abc\": \"SOMETHING|NOTHING\"}"
+            "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}"
         }
     }
 ]
