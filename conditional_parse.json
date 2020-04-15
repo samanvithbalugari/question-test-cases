@@ -4,7 +4,7 @@
         "type": "select",
         "question": "What is your favourite food?",
         "options": [
-            {"value" : "taco", "label": "Tacoooosss"},
+            {"value" : "tacos", "label": "Tacoooosss"},
             {"value" : "pizza", "label": "Pizzaaa"}
         ]
     },
