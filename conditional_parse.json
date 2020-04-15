@@ -1,7 +1,20 @@
 [
     {
         "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}",
-        "type": "text",
+        "type": "select",
         "question": "What is your favourite food?"
+        "options": [
+            {"value" : "taco", "label": "Tacoooosss"},
+            {"value" : "pizza", "label": "Pizzaaa"}
+        ]
+    },
+    {
+        "id": "conditional_q",
+        "type": "text",
+        "question": "Why do you like tacos?",
+        "condition": {
+            "value": "tacos",
+            "id": "min_qual_questions_start__{\"DATASOURCE\":\"EEO\"}"
+        }
     }
 ]
