@@ -1,0 +1,58 @@
+[
+  {
+    "id": "information_1",
+    "type": "information",
+    "text": "<p>Because we do business with the government, we must reach out to, hire, and provide equal opportunity to qualified people with disabilities. Completing this form is voluntary, but we hope that you will choose to fill it out. <br>Any answer you give will be kept private and will not be used against you in any way.</p>"
+  },
+  {
+    "id": "information_2",
+    "type": "information",
+    "text": "Orderdered list<ol><li>First item</li> <li>Second item</li><li>Third item</li></ol>"
+  },
+  {
+    "id": "information_3",
+    "type": "information",
+    "text": "Unordered list<ul><li>First item</li> <li>Second item</li><li>Third item</li></ul>"
+  },
+  {
+    "id": "information_4",
+    "type": "information",
+    "text": "<a href=\"https://www.indeed.com\">Click Here</a> to view the EEO is the Law poster",
+    "condition": {
+      "id": "question_1",
+      "value"  : "0"
+    }
+  },
+  {
+    "id": "pgbrk",
+    "type": "pagebreak",
+    "condition": {
+      "id": "question_1",
+      "value"  : "0"
+    }
+  },
+  {
+    "id": "pgbrk2",
+    "type": "pagebreak"
+  },
+  {
+    "id": "question_1",
+    "type": "select",
+    "question": "Did you view the EEO is the Law poster?",
+    "options": [
+      {
+        "value": "0",
+        "label": "No Answer"
+      },
+      {
+        "value": "1",
+        "label": "Yes"
+      },
+      {
+        "value": "2",
+        "label": "No"
+      }
+    ],
+    "required": true
+  }
+]
