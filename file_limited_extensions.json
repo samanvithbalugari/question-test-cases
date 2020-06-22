@@ -1,0 +1,7 @@
+[{
+  "id": "file",
+  "type": "file",
+  "question": "Please attach a file.",
+  "required": false,
+  "format": "doc, txt, pdf, docx"
+}]
